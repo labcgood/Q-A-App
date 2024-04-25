@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5CA2F82BD8C8DA0029A834 /* forestMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA2F72BD8C8DA0029A834 /* forestMusic.mp3 */; };
 		0DA32D142BC7DBE40067EDA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D132BC7DBE40067EDA8 /* AppDelegate.swift */; };
 		0DA32D162BC7DBE40067EDA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D152BC7DBE40067EDA8 /* SceneDelegate.swift */; };
-		0DA32D182BC7DBE40067EDA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D172BC7DBE40067EDA8 /* ViewController.swift */; };
 		0DA32D1B2BC7DBE40067EDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA32D192BC7DBE40067EDA8 /* Main.storyboard */; };
 		0DA32D1D2BC7DBE50067EDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA32D1C2BC7DBE50067EDA8 /* Assets.xcassets */; };
 		0DA32D202BC7DBE50067EDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA32D1E2BC7DBE50067EDA8 /* LaunchScreen.storyboard */; };
+		0DA32D2A2BC7DCAB0067EDA8 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D292BC7DCAB0067EDA8 /* QuestionViewController.swift */; };
+		0DA32D2C2BC7DCBE0067EDA8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D2B2BC7DCBE0067EDA8 /* ResultViewController.swift */; };
+		0DA32D2E2BC7DCFC0067EDA8 /* Qna.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D2D2BC7DCFC0067EDA8 /* Qna.swift */; };
+		0DA32D562BD261710067EDA8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA32D552BD261710067EDA8 /* HomePageViewController.swift */; };
+		0DA32D582BD261F80067EDA8 /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DA32D572BD261F80067EDA8 /* ChenYuluoyan-Thin-Monospaced.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D5CA2F72BD8C8DA0029A834 /* forestMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = forestMusic.mp3; sourceTree = "<group>"; };
 		0DA32D102BC7DBE40067EDA8 /* Q&A App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Q&A App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA32D132BC7DBE40067EDA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA32D152BC7DBE40067EDA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DA32D172BC7DBE40067EDA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DA32D1A2BC7DBE40067EDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DA32D1C2BC7DBE50067EDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA32D1F2BC7DBE50067EDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA32D212BC7DBE50067EDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA32D292BC7DCAB0067EDA8 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		0DA32D2B2BC7DCBE0067EDA8 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		0DA32D2D2BC7DCFC0067EDA8 /* Qna.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qna.swift; sourceTree = "<group>"; };
+		0DA32D552BD261710067EDA8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		0DA32D572BD261F80067EDA8 /* ChenYuluoyan-Thin-Monospaced.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin-Monospaced.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				0DA32D132BC7DBE40067EDA8 /* AppDelegate.swift */,
 				0DA32D152BC7DBE40067EDA8 /* SceneDelegate.swift */,
-				0DA32D172BC7DBE40067EDA8 /* ViewController.swift */,
 				0DA32D192BC7DBE40067EDA8 /* Main.storyboard */,
+				0DA32D2D2BC7DCFC0067EDA8 /* Qna.swift */,
+				0DA32D552BD261710067EDA8 /* HomePageViewController.swift */,
+				0DA32D292BC7DCAB0067EDA8 /* QuestionViewController.swift */,
+				0DA32D2B2BC7DCBE0067EDA8 /* ResultViewController.swift */,
 				0DA32D1C2BC7DBE50067EDA8 /* Assets.xcassets */,
 				0DA32D1E2BC7DBE50067EDA8 /* LaunchScreen.storyboard */,
 				0DA32D212BC7DBE50067EDA8 /* Info.plist */,
+				0DA32D572BD261F80067EDA8 /* ChenYuluoyan-Thin-Monospaced.ttf */,
+				0D5CA2F72BD8C8DA0029A834 /* forestMusic.mp3 */,
 			);
 			path = "Q&A App";
 			sourceTree = "<group>";
@@ -125,6 +140,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DA32D582BD261F80067EDA8 /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */,
+				0D5CA2F82BD8C8DA0029A834 /* forestMusic.mp3 in Resources */,
 				0DA32D202BC7DBE50067EDA8 /* LaunchScreen.storyboard in Resources */,
 				0DA32D1D2BC7DBE50067EDA8 /* Assets.xcassets in Resources */,
 				0DA32D1B2BC7DBE40067EDA8 /* Main.storyboard in Resources */,
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DA32D182BC7DBE40067EDA8 /* ViewController.swift in Sources */,
+				0DA32D2C2BC7DCBE0067EDA8 /* ResultViewController.swift in Sources */,
 				0DA32D142BC7DBE40067EDA8 /* AppDelegate.swift in Sources */,
+				0DA32D562BD261710067EDA8 /* HomePageViewController.swift in Sources */,
 				0DA32D162BC7DBE40067EDA8 /* SceneDelegate.swift in Sources */,
+				0DA32D2A2BC7DCAB0067EDA8 /* QuestionViewController.swift in Sources */,
+				0DA32D2E2BC7DCFC0067EDA8 /* Qna.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
