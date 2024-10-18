@@ -28,13 +28,10 @@ class HomePageViewController: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            // 每次返回到這個頁面時重新播放音樂
+            player?.seek(to: CMTime.zero)  // 將播放器重置到起始點
+            player?.play()  // 播放音樂
+        }
 }

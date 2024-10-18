@@ -88,28 +88,29 @@ class QuestionViewController: UIViewController {
     //選項按鈕
     //利用switch判斷使用者選到的選項，並在裡面先重置newScore(以防再選到其他選項時，newScore的值會再變動，導致結果錯誤)，並呼叫resetButton()來儲存當題分數
     @IBAction func selectItem(_ sender: UIButton) {
-        switch sender.tag {
-        case 0:
+        let option = Option(rawValue: sender.tag)
+        switch option {
+        case .doesNotMatchAtAll:
             resetButton()
             newScore = 0
             sender.layer.backgroundColor = selectButtonColor
             newScore += 0
-        case 1:
+        case .almostDoesNotMatch:
             resetButton()
             newScore = 0
             sender.layer.backgroundColor = selectButtonColor
             newScore += 1
-        case 2:
+        case .somewhatMatches:
             resetButton()
             newScore = 0
             sender.layer.backgroundColor = selectButtonColor
             newScore += 2
-        case 3:
+        case .almostMatches:
             resetButton()
             newScore = 0
             sender.layer.backgroundColor = selectButtonColor
             newScore += 3
-        case 4:
+        case .completelyMatches:
             resetButton()
             newScore = 0
             sender.layer.backgroundColor = selectButtonColor

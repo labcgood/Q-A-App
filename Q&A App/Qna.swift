@@ -63,3 +63,7 @@ var questionArray:[Question] = [
     Question(group: "B", question: "不太重視睡眠，睡一下就會飽。", score: 0),
     Question(group: "B", question: "喜歡放煙火跟鞭炮。", score: 0)
 ]
+
+enum Option:Int {
+    case doesNotMatchAtAll, almostDoesNotMatch, somewhatMatches, almostMatches, completelyMatches
+}
